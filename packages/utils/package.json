@@ -1,0 +1,28 @@
+{
+  "name": "@/utils",
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "exports": {
+    "./form": {
+      "types": "./src/form.ts",
+      "default": "./src/form.ts"
+    },
+    "./format": {
+      "types": "./src/format.ts",
+      "default": "./src/format.ts"
+    },
+    "./string": {
+      "types": "./src/string.ts",
+      "default": "./src/string.ts"
+    },
+    "./clientString": {
+      "types": "./src/clientString.ts",
+      "default": "./src/clientString.ts"
+    },
+    "./uuid": {
+      "types": "./src/uuid.ts",
+      "default": "./src/uuid.ts"
+    }
+  }
+}
