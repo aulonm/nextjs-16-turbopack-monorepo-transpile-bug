@@ -10,7 +10,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@/utils':
+      '@nettsted/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       next:

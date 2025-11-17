@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { uuid } from '@/utils/uuid';
+import { uuid } from '@nettsted/utils/uuid';
 
 
 export default function Home() {

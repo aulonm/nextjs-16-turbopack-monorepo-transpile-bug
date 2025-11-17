@@ -1,5 +1,5 @@
 {
-  "name": "@/utils",
+  "name": "@nettsted/utils",
   "type": "module",
   "private": true,
   "sideEffects": false,
