@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    // force the emit, as we use tsc to bundle
+    "noEmit": false,
+    "target": "es2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+  }
+}
