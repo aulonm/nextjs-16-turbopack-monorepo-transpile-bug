@@ -1,28 +1,23 @@
 {
-  "name": "@/utils",
-  "type": "module",
+  "name": "@nettsted/utils",
+  "type": "commonjs",
   "private": true,
   "sideEffects": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "./dist/logger.js",
+  "types": "./dist/logger.d.ts",
   "exports": {
-    "./form": {
-      "types": "./src/form.ts",
-      "default": "./src/form.ts"
-    },
-    "./format": {
-      "types": "./src/format.ts",
-      "default": "./src/format.ts"
-    },
-    "./string": {
-      "types": "./src/string.ts",
-      "default": "./src/string.ts"
-    },
-    "./clientString": {
-      "types": "./src/clientString.ts",
-      "default": "./src/clientString.ts"
-    },
-    "./uuid": {
-      "types": "./src/uuid.ts",
-      "default": "./src/uuid.ts"
+    ".": {
+      "types": "./dist/logger.d.ts",
+      "default": "./dist/logger.js"
     }
+  },
+  "dependencies": {
+    "pino": "10.1.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.1.2"
   }
 }
